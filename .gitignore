@@ -110,3 +110,4 @@ dist/
 nbdist/
 .nb-gradle/
 .idea/
+/know-it-nl.github.io.ipr
