@@ -58,8 +58,9 @@ body {
 
 p {
   font-size: 1.2rem;
-  opacity: 0.8;
-  margin-bottom: 2rem; }
+  opacity: 0.8; }
+  p:not(:last-child) {
+    margin-bottom: 2rem; }
 
 h1 {
   font-size: 2rem;
@@ -104,7 +105,7 @@ body {
 .m-intro {
   background: #113244;
   color: white;
-  padding-top: 2rem;
+  padding: 2rem 0;
   margin-bottom: 2rem; }
   .m-intro .photos {
     display: table;
@@ -117,6 +118,13 @@ body {
     .m-intro .photos img {
       display: block;
       width: 100%; }
+
+.m-footer {
+  background: #113244;
+  color: white;
+  margin-top: 2rem; }
+  .m-footer p:last-child {
+    margin-bottom: 0; }
 
 .m-home .about {
   margin: 0 auto;
