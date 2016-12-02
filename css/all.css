@@ -131,31 +131,34 @@ body {
   max-width: 50rem; }
 
 .member {
-  padding-left: 10rem;
   position: relative;
-  box-shadow: 0px 1px 3px rgba(17, 50, 68, 0.1), 0px 1px 1px rgba(17, 50, 68, 0.1);
-  background: #efefef;
-  padding: 2rem 2rem 2rem 12rem;
   margin-bottom: 2rem; }
-  .member aside {
-    position: absolute;
-    left: 2rem;
-    top: 2rem;
-    width: 8rem; }
-    .member aside img {
-      width: 100%;
-      height: auto;
-      border-radius: 0.2rem;
-      box-shadow: 0px 1px 6px rgba(17, 50, 68, 0.2), 0px 1px 2px rgba(17, 50, 68, 0.2); }
-    .member aside a {
-      padding: 0.6rem 1.2rem;
-      background: white;
-      color: #113244;
-      text-decoration: none;
-      display: block;
-      border-radius: 0.2rem;
-      margin-top: 1rem;
-      text-align: center; }
+  .member img {
+    border-radius: 0.2rem;
+    box-shadow: 0px 1px 6px rgba(17, 50, 68, 0.2), 0px 1px 2px rgba(17, 50, 68, 0.2); }
+  @media (min-width: 70rem) {
+    .member {
+      padding-left: 10rem;
+      box-shadow: 0px 1px 3px rgba(17, 50, 68, 0.1), 0px 1px 1px rgba(17, 50, 68, 0.1);
+      background: #efefef;
+      padding: 2rem 2rem 2rem 12rem; }
+      .member aside {
+        position: absolute;
+        left: 2rem;
+        top: 2rem;
+        width: 8rem; }
+      .member img {
+        width: 100%;
+        height: auto; }
+      .member a {
+        padding: 0.6rem 1.2rem;
+        background: white;
+        color: #113244;
+        text-decoration: none;
+        display: block;
+        border-radius: 0.2rem;
+        margin-top: 1rem;
+        text-align: center; } }
 
 .m-nav {
   background: #efefef; }
