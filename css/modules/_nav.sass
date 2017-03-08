@@ -1,28 +1,56 @@
 .m-nav
-  background: #efefef
+  background: $light
 
-  .l-row
+  figure
+    display: block
+
+  ul
     display: flex
+    flex-wrap: wrap
+
+  li
+    flex: 1 0 50%
+    padding: 0.5rem
 
   img
     width: 100%
     display: block
     max-width: 10rem
     +br
+    +max-width(40rem)
+      margin: 0 auto 2rem
 
-  ul
-    margin-left: auto
-    display: flex
   li a
     display: block
     font-size: 1.2rem
     padding: 0.6rem 1.2rem
-    margin-left: 0.5rem
     color: $darkblue
     +br
+
     +hocus
       background: #fff
       +shadow
+
     &.active
       background: #fff
       +shadow
+
+    +max-width(40rem)
+      text-align: center
+
+
+  +min-width(40rem)
+    .l-row
+      display: flex
+      align-items: center
+
+    ul
+      margin-left: auto
+      flex-wrap: nowrap
+
+    li
+      flex: auto
+      padding: 0
+
+      a
+        margin-left: 0.5rem

@@ -11,9 +11,12 @@ body
 
 p
   font-size: 1.2rem
-  opacity: 0.8
+
   &:not(:last-child)
     margin-bottom: 2rem
+
+a
+  color: #0179BB
 
 h1
   font-size: 2rem
@@ -22,9 +25,26 @@ h1
   margin-bottom: 1.5rem
   +min-width(50rem)
     font-size: 3rem
+
 h2
   font-size: 2rem
   font-weight: bold
   line-height: 1.2
   margin-bottom: 1rem
 
+h3
+  font-size: 1.2rem
+  font-weight: bold
+  line-height: 1.2
+  margin-bottom: 0.5rem
+
+main
+  ul, ol
+    list-style: square
+    margin-left: 20px
+    font-size: 1.2rem
+    opacity: 0.8
+    &:not(:last-child)
+      margin-bottom: 2rem
+  ol
+    list-style: decimal-leading-zero
