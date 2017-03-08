@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="246px" height="90px" viewBox="0 0 246 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>know-it-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="know-it-logo">
+            <g id="Page-1">
+                <g id="Artboard">
+                    <g id="Group">
+                        <g id="KNOW" transform="translate(20.000000, 10.000000)" font-weight="500" font-size="43" font-family="DINNextLTPro-MediumCond, DIN Next LT Pro" fill="#FFFFFF" font-style="condensed">
+                            <text>
+                                <tspan x="0.1881838" y="32">KNOW</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle" fill="#E45D00" fill-rule="nonzero" x="0" y="10" width="150" height="70"></rect>
+                        <polygon id="Rectangle" fill="#113244" fill-rule="nonzero" points="150 10 230 0.14453125 230 89.8554688 150 80"></polygon>
+                        <polygon id="Rectangle" fill="#113244" fill-rule="nonzero" opacity="0.699999988" points="150 10 238.089844 3.17772658 238.089844 86.8222734 150 80"></polygon>
+                        <polygon id="Combined-Shape" fill="#113244" fill-rule="nonzero" opacity="0.200000003" points="238 6.58639578 245.729658 6.28655494 245.729658 83.7134451 238 83.4136042"></polygon>
+                        <path d="M39.869,59 L47.394,59 L35.225,43.778 L46.62,30.319 L39.095,30.319 L28.947,43.133 L28.947,30.319 L22.841,30.319 L22.841,59 L28.947,59 L28.947,50.185 L31.183,47.519 L39.869,59 Z M64.078,59 L69.539,59 L69.539,44.337 C69.539,40.295 67.346,37.715 62.788,37.715 C59.391,37.715 56.854,39.349 55.521,40.94 L55.521,38.231 L50.06,38.231 L50.06,59 L55.521,59 L55.521,45.025 C56.424,43.778 58.101,42.574 60.251,42.574 C62.573,42.574 64.078,43.563 64.078,46.444 L64.078,59 Z M84.589,59.516 C77.752,59.516 73.624,54.528 73.624,48.594 C73.624,42.703 77.752,37.715 84.589,37.715 C91.469,37.715 95.597,42.703 95.597,48.594 C95.597,54.528 91.469,59.516 84.589,59.516 Z M84.589,54.657 C87.986,54.657 89.921,51.862 89.921,48.594 C89.921,45.369 87.986,42.574 84.589,42.574 C81.192,42.574 79.3,45.369 79.3,48.594 C79.3,51.862 81.192,54.657 84.589,54.657 Z M117.871,59 L123.676,59 L129.997,38.231 L124.321,38.231 L120.451,52.206 L115.893,38.231 L111.034,38.231 L106.476,52.206 L102.606,38.231 L96.93,38.231 L103.251,59 L109.099,59 L113.485,44.853 L117.871,59 Z" id="Know" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        <path d="M176.505228,59.002556 L182.184895,59.5193765 L182.184895,31.5257715 L176.505228,32.0746938 L176.505228,59.002556 Z M193.624224,60.5548354 L199.343888,61.0685119 L199.343888,35.7215101 L207.103433,35.2510275 L207.103433,29.1374411 L185.824682,31.1744414 L185.824682,36.5483818 L193.624224,36.070464 L193.624224,60.5548354 Z" id="IT" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

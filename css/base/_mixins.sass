@@ -1,0 +1,46 @@
+@mixin hide
+  left: -9999px
+  position: absolute
+
+@mixin hide-text
+  text-indent: -100em
+  overflow: hidden
+
+@mixin data-uri-bg($image, $properties: no-repeat)
+  background: inline-image("../../assets/images/#{$image}") $properties
+
+@mixin max-width($width)
+  @media (max-width: $width)
+    @content
+
+@mixin min-width($width)
+  @media (min-width: $width)
+    @content
+
+@mixin min-max-width($min-width, $max-width)
+  @media (min-width: $min-width) and (max-width: $max-width )
+    @content
+
+@mixin max-height($height)
+  @media (max-height: $height)
+    @content
+
+@mixin min-height($height)
+  @media (min-height: $height)
+    @content
+
+@mixin min-max-height($min-height, $max-height)
+  @media (min-height: $min-height) and (max-height: $max-height )
+    @content
+
+@mixin hocus
+  &:active,
+  &:hover,
+  &:focus
+    @content
+
+@mixin shadow($depth: 1)
+  box-shadow: 0px 1px $depth * 3px rgba($darkblue, $depth / 10), 0px 1px $depth * 1px rgba($darkblue, $depth / 10)
+
+@mixin br($radius: $br)
+  border-radius: $radius
