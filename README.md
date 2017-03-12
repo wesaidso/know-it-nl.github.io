@@ -25,13 +25,13 @@ Copy the settings in both tabs
 ![LiveReload screenshot](https://know-it-nl.github.io/images/README/livereload3.png)
 
 ## CSS SETUP
-`/base/` has all the structure for the CSS, like layout, typography,
-`/components/` has all the components, these are small parts of the interface you want to reuse within modules
-`/modules/` has all the modules, bigger blocks of your page such as the navigation, member page, etc.
+- `/base/` has all the structure for the CSS, like layout, typography, etc.
+- `/components/` has all the components, these are small parts of the interface you want to reuse within modules
+- `/modules/` has all the modules, bigger blocks of your page such as the navigation, member page, etc.
 
-`.l-` prefix for layout classes
-`.c-` prefix for components
-`.m-` prefix for modules
+- `.l-` prefix for layout classes
+- `.c-` prefix for components
+- `.m-` prefix for modules
 
 This combination makes it "safe" to use classes for modifiers or elements within a component / module.
 
