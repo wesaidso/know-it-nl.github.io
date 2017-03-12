@@ -20,5 +20,11 @@
       vertical-align: top
 
     img
+      filter: sepia(1) hue-rotate(160deg)
       display: block
       width: 100%
+      transform-origin: center top
+      transition: transform 0.5s
+
+      &:hover
+        filter: none
