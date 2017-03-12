@@ -196,6 +196,18 @@ body {
   .m-footer p:last-child {
     margin-bottom: 0; }
 
+.m-members .index {
+  column-gap: 2rem;
+  margin-left: 0;
+  margin-bottom: 4rem; }
+  @media (min-width: 30rem) {
+    .m-members .index {
+      columns: 2; } }
+  @media (min-width: 50rem) {
+    .m-members .index {
+      columns: 3; } }
+  .m-members .index li {
+    list-style: none; }
 .m-members .member {
   position: relative;
   margin-bottom: 2rem; }
