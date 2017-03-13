@@ -35,5 +35,7 @@ Copy the settings in both tabs
 
 This combination makes it "safe" to use classes for modifiers or elements within a component / module.
 
+IMPORTANT: Import the files you need, in all.sass
+
 ## REM Units?
 https://www.sitepoint.com/understanding-and-using-rem-units-in-css/

@@ -3,7 +3,8 @@
 
 html
   font-size: 15px
-  -webkit-font-smoothing: antialiased
+  -webkit-font-smoothing: antialiased // Makes text smoother for webkit browsers
+  -moz-osx-font-smoothing: grayscale // Makes text smoother for opera / firefox
 
 body
   font: 1rem/1.5 Sans-serif
@@ -23,6 +24,7 @@ h1
   font-weight: bold
   line-height: 1.2
   margin-bottom: 1.5rem
+  
   +min-width(50rem)
     font-size: 3rem
 
@@ -44,7 +46,9 @@ main
     margin-left: 20px
     font-size: 1.2rem
     opacity: 0.8
+
     &:not(:last-child)
       margin-bottom: 2rem
+
   ol
     list-style: decimal-leading-zero

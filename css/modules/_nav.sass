@@ -13,10 +13,11 @@
     padding: 0.5rem
 
   img
+    +br
     width: 100%
     display: block
     max-width: 10rem
-    +br
+
     +max-width(40rem)
       margin: 0 auto 2rem
 
@@ -29,16 +30,15 @@
     +br
 
     +hocus
-      background: #fff
       +shadow
+      background: #fff
 
     &.active
-      background: #fff
       +shadow
+      background: #fff
 
     +max-width(40rem)
       text-align: center
-
 
   +min-width(40rem)
     .l-row

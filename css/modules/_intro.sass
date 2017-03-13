@@ -7,7 +7,7 @@
   h1
     br
       +max-width(30rem)
-        display: none
+        display: none // Manually break the title on large resolutions, dont on smaller ones
 
   .photos
     display: flex
@@ -25,8 +25,8 @@
           display: block
           visibility: hidden
           position: absolute
-          left: 50%
-          transform: translateX(-50%)
+          left: 50% // Move the image 50% to the left of container
+          transform: translateX(-50%) // This moves the 50% of its own width
           background: darken($darkblue,10)
           color: #fff
           padding: 0.5rem 1rem
@@ -42,7 +42,7 @@
           visibility: visible
 
     img
-      filter: sepia(1) hue-rotate(160deg)
+      filter: sepia(1) hue-rotate(160deg) // Sepia colorizes, hue-rotate makes it blue-ish
       display: block
       width: 100%
       height: auto
