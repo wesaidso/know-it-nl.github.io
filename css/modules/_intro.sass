@@ -10,19 +10,42 @@
         display: none
 
   .photos
-    display: table
-    border-collapse: collapse
+    display: flex
     width: 100%
     margin: -2rem 0 2rem
 
     a
-      display: table-cell
-      vertical-align: top
+      position: relative
+
+      +min-width(84rem)
+        &:after
+          +br
+          white-space: nowrap
+          content: attr(title)
+          display: block
+          visibility: hidden
+          position: absolute
+          left: 50%
+          transform: translateX(-50%)
+          background: darken($darkblue,10)
+          color: #fff
+          padding: 0.5rem 1rem
+          opacity: 0
+          transition: all 0.3s
+          margin-top: 0
+          z-index: 100
+
+        &:hover:after
+          display: block
+          opacity: 1
+          margin-top: 10px
+          visibility: visible
 
     img
       filter: sepia(1) hue-rotate(160deg)
       display: block
       width: 100%
+      height: auto
       max-height: 160px
       transform-origin: center top
       transition: transform 0.5s
